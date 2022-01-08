@@ -1,6 +1,6 @@
 import React, { useState } from "react"
 import "./style.css" ;
-
+// tamanna garg
 export default function MyAccordion({question,answer}){
     const [hover,setHover]=useState(false)
     const showContent=()=>{
@@ -11,7 +11,7 @@ export default function MyAccordion({question,answer}){
 
         alert()
     }
-   
+   // tamanna garg
     return(
         <>
         
